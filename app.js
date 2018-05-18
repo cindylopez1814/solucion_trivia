@@ -37,8 +37,9 @@ window.onload = function() {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
 } */
-function b1() {
-    var nn = document.getElementById("name");
-    document.getElementById("hola").innerHTML = nn + "un gusto";
+function us(){
+    var user = document.getElementById("name");
+    var hi = document.getElementById("hola");
+    hi.innerHTML= "bienvenida" + user;
 }
 }
