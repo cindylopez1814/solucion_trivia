@@ -1,4 +1,9 @@
-window.onload = function() {
+function us(){
+    var user = document.getElementById("name").value;
+    var hi = document.getElementById("hola");
+  
+    hi.innerHTML= "bienvenida " + user
+}
 /*    var name = prompt("¿cuál es tu nombre?");
     document.getElementById("name").innerText = name;
 
@@ -37,9 +42,3 @@ window.onload = function() {
         document.getElementById("warningMessage").innerText = "Bueno Chao";
     }
 } */
-function us(){
-    var user = document.getElementById("name");
-    var hi = document.getElementById("hola");
-    hi.innerHTML= "bienvenida" + user;
-}
-}
